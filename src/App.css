@@ -80,9 +80,9 @@ html {
   transition: transform 0.3s ease;
 }
 
-.pokemon-container img:hover {
+/* .pokemon-container img:hover {
   transform: scale(1.05);
-}
+} */
 
 .pokemon-info {
   width: 100%;
