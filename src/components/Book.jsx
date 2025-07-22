@@ -45,7 +45,13 @@ function Book() {
       name: "Darkrai",
       types: ["Dark"],
       description: "A legendary Pokémon that appears on moonless nights, putting people to sleep and giving them nightmares."
-    }
+    },
+    {
+      id: "006",
+      name: "Charizard",
+      types: ["Fire", "Flying"],
+      description: "Flies in search of strong opponents. Breathes extremely hot fire that melts anything, but never uses it on weaker foes."
+    },
   ];
 
   return (
@@ -91,6 +97,16 @@ function Book() {
           </div>
         </div>
       ))}
+
+      <div className="page" style={{ background: 'transparent' }}>
+        <div className="page-content cover">
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" 
+            alt="Pokémon Logo" 
+            className="pokemon-logo"
+          />
+        </div>
+      </div>
     </HTMLFlipBook>
   );
 }
